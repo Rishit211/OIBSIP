@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border-color:aqua;
+    min-height: 100vh;
+    border: 10px solid #000000;
+    background-color: whitesmoke;
+}
+.top_section{
+    margin-top: 100px;
+    display:inline;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.top_section h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    
+}
+
+.top_section h4{
+    text-align:start;
+    font-size: 21px;
+    line-height: 30px;
+}
+.img_container{
+    border-radius: 50px;
+    overflow:hidden;
+}
+.img_container,img{
+    width: 820px;
+    height:520px;
+}
+.about_section{
+    margin-top: 50px;
+}
+
+.about_section p{
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.early_education{
+    margin: 50px 0;
+}
+.early_education h4{
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.early_education p{
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.death{
+    margin: 50px 0;
+}
+.death h4{
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.death p{
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+footer{
+    margin: 50px 0;
+}
+
+footer p{
+    text-align: end;
+}
